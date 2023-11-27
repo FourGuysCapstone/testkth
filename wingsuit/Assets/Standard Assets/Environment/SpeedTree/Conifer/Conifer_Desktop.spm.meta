@@ -1,50 +1,97 @@
 fileFormatVersion: 2
 guid: 469edab27ab6d004d84af2c4a851bd7f
 SpeedTreeImporter:
-  serializedVersion: 3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Billboard
+    second: {fileID: 2100000, guid: e625f56663597ef4899f86b588b4d506, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Branches_0
+    second: {fileID: 2100000, guid: f6dcb72fe0b365c46928a62121f8412c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Branches_1
+    second: {fileID: 2100000, guid: 582d0e0b90d565d4390ad4cd206a1256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fronds_2
+    second: {fileID: 2100000, guid: 3b247231006be724da7b7fd9caf718a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves_3
+    second: {fileID: 2100000, guid: 02e01afe5dda39940acb9ec43e2c870b, type: 2}
+  serializedVersion: 7
   mainColor: {r: 1, g: 1, b: 1, a: 1}
-  specColor: {r: .5, g: .5, b: .5, a: 0}
-  hueVariation: {r: 1, g: .5, b: 0, a: .100000001}
-  shininess: .125
-  alphaTestRef: .330000013
+  hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+  alphaTestRef: 0.33
+  enableHueVariation: 0
+  enableBumpMapping: 1
+  enableSubsurfaceScattering: 1
   bestWindQuality: 4
+  selectedWindQuality: 4
+  enableShadowCasting: 1
+  enableShadowReceiving: 1
+  enableLightProbes: 1
+  reflectionProbeEnumValue: 1
   hasBillboard: 1
   lODSettings:
-  - height: .5
+  - enableSettingOverride: 0
+    height: 0.5
     castShadows: 1
     receiveShadows: 1
     useLightProbes: 1
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
+    enableSubsurface: 1
     windQuality: 4
-  - height: .25
+  - enableSettingOverride: 0
+    height: 0.25
     castShadows: 1
     receiveShadows: 1
     useLightProbes: 1
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
+    enableSubsurface: 1
     windQuality: 4
-  - height: .125
+  - enableSettingOverride: 0
+    height: 0.125
     castShadows: 1
     receiveShadows: 1
     useLightProbes: 1
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
+    enableSubsurface: 1
     windQuality: 4
-  - height: .00999999978
-    castShadows: 0
-    receiveShadows: 0
+  - enableSettingOverride: 0
+    height: 0.01
+    castShadows: 1
+    receiveShadows: 1
     useLightProbes: 0
     reflectionProbeUsage: 0
     enableBump: 1
     enableHue: 1
+    enableSubsurface: 1
     windQuality: 1
   enableSmoothLODTransition: 1
-  billboardTransitionCrossFadeWidth: .25
-  fadeOutWidth: .25
-  scaleFactor: .304800004
+  animateCrossFading: 1
+  billboardTransitionCrossFadeWidth: 0.25
+  fadeOutWidth: 0.25
+  scaleFactor: 1
+  unitConversionEnumValue: 4
+  motionVectorModeEnumValue: -1
+  materialVersion: 1
+  materialLocation: 0
+  fileIDType: 0
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

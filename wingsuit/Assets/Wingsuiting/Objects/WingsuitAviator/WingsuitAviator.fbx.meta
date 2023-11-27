@@ -1,222 +1,885 @@
 fileFormatVersion: 2
 guid: 8397a072af75a174aa7fac6a51160d26
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: Head
-    100002: HeadTop_End
-    100004: Hips
-    100006: LeftArm
-    100008: LeftFoot
-    100010: LeftFootToeBase_End
-    100012: LeftForeArm
-    100014: LeftHand
-    100016: LeftLeg
-    100018: LeftShoulder
-    100020: LeftToeBase
-    100022: LeftUpLeg
-    100024: Neck
-    100026: Neck1
-    100028: RightArm
-    100030: RightFoot
-    100032: RightFootToeBase_End
-    100034: RightForeArm
-    100036: RightHand
-    100038: RightLeg
-    100040: RightShoulder
-    100042: RightToeBase
-    100044: RightUpLeg
-    100046: Spine
-    100048: Spine1
-    100050: Spine2
-    100052: //RootNode
-    100054: Wingsuit_Body
-    100056: Wingsuit_Glasses
-    100058: Wingsuit_helmet
-    100060: Hip
-    100062: Left_Ankle_Joint_01
-    100064: Left_Forearm_Joint_01
-    100066: Left_Knee_Joint_01
-    100068: Left_Shoulder_Joint_01
-    100070: Left_Thigh_Joint_01
-    100072: Left_Toe_Joint_01
-    100074: Left_Upper_Arm_Joint_01
-    100076: Left_Wrist_Joint_01
-    100078: Ribs
-    100080: Right_Ankle_Joint_01
-    100082: Right_Forearm_Joint_01
-    100084: Right_Knee_Joint_01
-    100086: Right_Shoulder_Joint_01
-    100088: Right_Thigh_Joint_01
-    100090: Right_Toe_Joint_01
-    100092: Right_Upper_Arm_Joint_01
-    100094: Right_Wrist_Joint_01
-    100096: Root
-    100098: Wingsuit
-    100100: suit
-    100102: suit2
-    100104: suit3
-    100106: suit4
-    100108: suit5
-    100110: suit6
-    100112: suit7
-    100114: left_suit
-    100116: left_suit1
-    100118: left_suit2
-    100120: left_suit3
-    100122: right_suit
-    100124: right_suit1
-    100126: right_suit2
-    100128: right_suit3
-    100130: softMod1Handle
-    100132: Chest
-    100134: suit1
-    100136: Suit
-    100138: HipSuit
-    100140: RibsSuit
-    400000: Head
-    400002: HeadTop_End
-    400004: Hips
-    400006: LeftArm
-    400008: LeftFoot
-    400010: LeftFootToeBase_End
-    400012: LeftForeArm
-    400014: LeftHand
-    400016: LeftLeg
-    400018: LeftShoulder
-    400020: LeftToeBase
-    400022: LeftUpLeg
-    400024: Neck
-    400026: Neck1
-    400028: RightArm
-    400030: RightFoot
-    400032: RightFootToeBase_End
-    400034: RightForeArm
-    400036: RightHand
-    400038: RightLeg
-    400040: RightShoulder
-    400042: RightToeBase
-    400044: RightUpLeg
-    400046: Spine
-    400048: Spine1
-    400050: Spine2
-    400052: //RootNode
-    400054: Wingsuit_Body
-    400056: Wingsuit_Glasses
-    400058: Wingsuit_helmet
-    400060: Hip
-    400062: Left_Ankle_Joint_01
-    400064: Left_Forearm_Joint_01
-    400066: Left_Knee_Joint_01
-    400068: Left_Shoulder_Joint_01
-    400070: Left_Thigh_Joint_01
-    400072: Left_Toe_Joint_01
-    400074: Left_Upper_Arm_Joint_01
-    400076: Left_Wrist_Joint_01
-    400078: Ribs
-    400080: Right_Ankle_Joint_01
-    400082: Right_Forearm_Joint_01
-    400084: Right_Knee_Joint_01
-    400086: Right_Shoulder_Joint_01
-    400088: Right_Thigh_Joint_01
-    400090: Right_Toe_Joint_01
-    400092: Right_Upper_Arm_Joint_01
-    400094: Right_Wrist_Joint_01
-    400096: Root
-    400098: Wingsuit
-    400100: suit
-    400102: suit2
-    400104: suit3
-    400106: suit4
-    400108: suit5
-    400110: suit6
-    400112: suit7
-    400114: left_suit
-    400116: left_suit1
-    400118: left_suit2
-    400120: left_suit3
-    400122: right_suit
-    400124: right_suit1
-    400126: right_suit2
-    400128: right_suit3
-    400130: softMod1Handle
-    400132: Chest
-    400134: suit1
-    400136: Suit
-    400138: HipSuit
-    400140: RibsSuit
-    2300000: Wingsuit_Glasses
-    2300002: Wingsuit_helmet
-    3300000: Wingsuit_Glasses
-    3300002: Wingsuit_helmet
-    4300000: Wingsuit_Glasses
-    4300002: Wingsuit_helmet
-    4300004: Wingsuit_Body
-    4300006: Wingsuit
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Wingsuit_Body
-    13700002: Wingsuit
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Head
+  - first:
+      1: 100002
+    second: HeadTop_End
+  - first:
+      1: 100004
+    second: Hips
+  - first:
+      1: 100006
+    second: LeftArm
+  - first:
+      1: 100008
+    second: LeftFoot
+  - first:
+      1: 100010
+    second: LeftFootToeBase_End
+  - first:
+      1: 100012
+    second: LeftForeArm
+  - first:
+      1: 100014
+    second: LeftHand
+  - first:
+      1: 100016
+    second: LeftLeg
+  - first:
+      1: 100018
+    second: LeftShoulder
+  - first:
+      1: 100020
+    second: LeftToeBase
+  - first:
+      1: 100022
+    second: LeftUpLeg
+  - first:
+      1: 100024
+    second: Neck
+  - first:
+      1: 100026
+    second: Neck1
+  - first:
+      1: 100028
+    second: RightArm
+  - first:
+      1: 100030
+    second: RightFoot
+  - first:
+      1: 100032
+    second: RightFootToeBase_End
+  - first:
+      1: 100034
+    second: RightForeArm
+  - first:
+      1: 100036
+    second: RightHand
+  - first:
+      1: 100038
+    second: RightLeg
+  - first:
+      1: 100040
+    second: RightShoulder
+  - first:
+      1: 100042
+    second: RightToeBase
+  - first:
+      1: 100044
+    second: RightUpLeg
+  - first:
+      1: 100046
+    second: Spine
+  - first:
+      1: 100048
+    second: Spine1
+  - first:
+      1: 100050
+    second: Spine2
+  - first:
+      1: 100052
+    second: //RootNode
+  - first:
+      1: 100054
+    second: Wingsuit_Body
+  - first:
+      1: 100056
+    second: Wingsuit_Glasses
+  - first:
+      1: 100058
+    second: Wingsuit_helmet
+  - first:
+      1: 100060
+    second: Hip
+  - first:
+      1: 100062
+    second: Left_Ankle_Joint_01
+  - first:
+      1: 100064
+    second: Left_Forearm_Joint_01
+  - first:
+      1: 100066
+    second: Left_Knee_Joint_01
+  - first:
+      1: 100068
+    second: Left_Shoulder_Joint_01
+  - first:
+      1: 100070
+    second: Left_Thigh_Joint_01
+  - first:
+      1: 100072
+    second: Left_Toe_Joint_01
+  - first:
+      1: 100074
+    second: Left_Upper_Arm_Joint_01
+  - first:
+      1: 100076
+    second: Left_Wrist_Joint_01
+  - first:
+      1: 100078
+    second: Ribs
+  - first:
+      1: 100080
+    second: Right_Ankle_Joint_01
+  - first:
+      1: 100082
+    second: Right_Forearm_Joint_01
+  - first:
+      1: 100084
+    second: Right_Knee_Joint_01
+  - first:
+      1: 100086
+    second: Right_Shoulder_Joint_01
+  - first:
+      1: 100088
+    second: Right_Thigh_Joint_01
+  - first:
+      1: 100090
+    second: Right_Toe_Joint_01
+  - first:
+      1: 100092
+    second: Right_Upper_Arm_Joint_01
+  - first:
+      1: 100094
+    second: Right_Wrist_Joint_01
+  - first:
+      1: 100096
+    second: Root
+  - first:
+      1: 100098
+    second: Wingsuit
+  - first:
+      1: 100100
+    second: suit
+  - first:
+      1: 100102
+    second: suit2
+  - first:
+      1: 100104
+    second: suit3
+  - first:
+      1: 100106
+    second: suit4
+  - first:
+      1: 100108
+    second: suit5
+  - first:
+      1: 100110
+    second: suit6
+  - first:
+      1: 100112
+    second: suit7
+  - first:
+      1: 100114
+    second: left_suit
+  - first:
+      1: 100116
+    second: left_suit1
+  - first:
+      1: 100118
+    second: left_suit2
+  - first:
+      1: 100120
+    second: left_suit3
+  - first:
+      1: 100122
+    second: right_suit
+  - first:
+      1: 100124
+    second: right_suit1
+  - first:
+      1: 100126
+    second: right_suit2
+  - first:
+      1: 100128
+    second: right_suit3
+  - first:
+      1: 100130
+    second: softMod1Handle
+  - first:
+      1: 100132
+    second: Chest
+  - first:
+      1: 100134
+    second: suit1
+  - first:
+      1: 100136
+    second: Suit
+  - first:
+      1: 100138
+    second: HipSuit
+  - first:
+      1: 100140
+    second: RibsSuit
+  - first:
+      4: 400000
+    second: Head
+  - first:
+      4: 400002
+    second: HeadTop_End
+  - first:
+      4: 400004
+    second: Hips
+  - first:
+      4: 400006
+    second: LeftArm
+  - first:
+      4: 400008
+    second: LeftFoot
+  - first:
+      4: 400010
+    second: LeftFootToeBase_End
+  - first:
+      4: 400012
+    second: LeftForeArm
+  - first:
+      4: 400014
+    second: LeftHand
+  - first:
+      4: 400016
+    second: LeftLeg
+  - first:
+      4: 400018
+    second: LeftShoulder
+  - first:
+      4: 400020
+    second: LeftToeBase
+  - first:
+      4: 400022
+    second: LeftUpLeg
+  - first:
+      4: 400024
+    second: Neck
+  - first:
+      4: 400026
+    second: Neck1
+  - first:
+      4: 400028
+    second: RightArm
+  - first:
+      4: 400030
+    second: RightFoot
+  - first:
+      4: 400032
+    second: RightFootToeBase_End
+  - first:
+      4: 400034
+    second: RightForeArm
+  - first:
+      4: 400036
+    second: RightHand
+  - first:
+      4: 400038
+    second: RightLeg
+  - first:
+      4: 400040
+    second: RightShoulder
+  - first:
+      4: 400042
+    second: RightToeBase
+  - first:
+      4: 400044
+    second: RightUpLeg
+  - first:
+      4: 400046
+    second: Spine
+  - first:
+      4: 400048
+    second: Spine1
+  - first:
+      4: 400050
+    second: Spine2
+  - first:
+      4: 400052
+    second: //RootNode
+  - first:
+      4: 400054
+    second: Wingsuit_Body
+  - first:
+      4: 400056
+    second: Wingsuit_Glasses
+  - first:
+      4: 400058
+    second: Wingsuit_helmet
+  - first:
+      4: 400060
+    second: Hip
+  - first:
+      4: 400062
+    second: Left_Ankle_Joint_01
+  - first:
+      4: 400064
+    second: Left_Forearm_Joint_01
+  - first:
+      4: 400066
+    second: Left_Knee_Joint_01
+  - first:
+      4: 400068
+    second: Left_Shoulder_Joint_01
+  - first:
+      4: 400070
+    second: Left_Thigh_Joint_01
+  - first:
+      4: 400072
+    second: Left_Toe_Joint_01
+  - first:
+      4: 400074
+    second: Left_Upper_Arm_Joint_01
+  - first:
+      4: 400076
+    second: Left_Wrist_Joint_01
+  - first:
+      4: 400078
+    second: Ribs
+  - first:
+      4: 400080
+    second: Right_Ankle_Joint_01
+  - first:
+      4: 400082
+    second: Right_Forearm_Joint_01
+  - first:
+      4: 400084
+    second: Right_Knee_Joint_01
+  - first:
+      4: 400086
+    second: Right_Shoulder_Joint_01
+  - first:
+      4: 400088
+    second: Right_Thigh_Joint_01
+  - first:
+      4: 400090
+    second: Right_Toe_Joint_01
+  - first:
+      4: 400092
+    second: Right_Upper_Arm_Joint_01
+  - first:
+      4: 400094
+    second: Right_Wrist_Joint_01
+  - first:
+      4: 400096
+    second: Root
+  - first:
+      4: 400098
+    second: Wingsuit
+  - first:
+      4: 400100
+    second: suit
+  - first:
+      4: 400102
+    second: suit2
+  - first:
+      4: 400104
+    second: suit3
+  - first:
+      4: 400106
+    second: suit4
+  - first:
+      4: 400108
+    second: suit5
+  - first:
+      4: 400110
+    second: suit6
+  - first:
+      4: 400112
+    second: suit7
+  - first:
+      4: 400114
+    second: left_suit
+  - first:
+      4: 400116
+    second: left_suit1
+  - first:
+      4: 400118
+    second: left_suit2
+  - first:
+      4: 400120
+    second: left_suit3
+  - first:
+      4: 400122
+    second: right_suit
+  - first:
+      4: 400124
+    second: right_suit1
+  - first:
+      4: 400126
+    second: right_suit2
+  - first:
+      4: 400128
+    second: right_suit3
+  - first:
+      4: 400130
+    second: softMod1Handle
+  - first:
+      4: 400132
+    second: Chest
+  - first:
+      4: 400134
+    second: suit1
+  - first:
+      4: 400136
+    second: Suit
+  - first:
+      4: 400138
+    second: HipSuit
+  - first:
+      4: 400140
+    second: RibsSuit
+  - first:
+      23: 2300000
+    second: Wingsuit_Glasses
+  - first:
+      23: 2300002
+    second: Wingsuit_helmet
+  - first:
+      33: 3300000
+    second: Wingsuit_Glasses
+  - first:
+      33: 3300002
+    second: Wingsuit_helmet
+  - first:
+      43: 4300000
+    second: Wingsuit_Glasses
+  - first:
+      43: 4300002
+    second: Wingsuit_helmet
+  - first:
+      43: 4300004
+    second: Wingsuit_Body
+  - first:
+      43: 4300006
+    second: Wingsuit
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Wingsuit_Body
+  - first:
+      137: 13700002
+    second: Wingsuit
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'Left_Toe_Joint_01' : position
+      error = 45.475376 mm\n\t'Right_Toe_Joint_01' : position error = 55.371983 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 1
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    serializedVersion: 3
+    human:
+    - boneName: Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Thigh_Joint_01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Thigh_Joint_01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Knee_Joint_01
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Knee_Joint_01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Ankle_Joint_01
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Ankle_Joint_01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ribs
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Shoulder_Joint_01
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Shoulder_Joint_01
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Upper_Arm_Joint_01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Upper_Arm_Joint_01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Forearm_Joint_01
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Forearm_Joint_01
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Wrist_Joint_01
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Wrist_Joint_01
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Toe_Joint_01
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Toe_Joint_01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: WingsuitAviator(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: WingsuitAviator(Clone)
+      position: {x: -2.1878564e-33, y: 1.0628308, z: 0.035129853}
+      rotation: {x: 0.47294453, y: -0.5256648, z: -0.47294453, w: 0.5256648}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Hip
+      parentName: Root
+      position: {x: 0.028992068, y: -0.0025938721, z: 1.22991095e-17}
+      rotation: {x: 0.03774032, y: 0.9992876, z: 0.000000029802322, w: 0.000000029802322}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: HipSuit
+      parentName: Hip
+      position: {x: -0.14912336, y: -0.102526024, z: 0.0060526775}
+      rotation: {x: -0.4924463, y: -0.5074413, z: -0.4924463, w: 0.5074413}
+      scale: {x: 1, y: 1, z: 1}
+    - name: suit1
+      parentName: HipSuit
+      position: {x: -0.006052682, y: -0.35465246, z: -0.043399274}
+      rotation: {x: -0.00000008940697, y: 0.000000059604645, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: suit2
+      parentName: HipSuit
+      position: {x: -0.006052682, y: -0.62750584, z: -0.04827043}
+      rotation: {x: -0.00000008940697, y: 0.000000059604645, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Left_Thigh_Joint_01
+      parentName: Hip
+      position: {x: -0.12213361, y: 0.011331997, z: -0.11148475}
+      rotation: {x: -0.99270284, y: -0.057788342, z: -0.10401908, w: 0.019538019}
+      scale: {x: 0.99999976, y: 1, z: 1.0000001}
+    - name: Left_Knee_Joint_01
+      parentName: Left_Thigh_Joint_01
+      position: {x: -0.3719535, y: -0.001429905, z: 0.024969213}
+      rotation: {x: 0.000000113621354, y: 0.000000018626451, z: 0.01881238, w: 0.99982303}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Left_Ankle_Joint_01
+      parentName: Left_Knee_Joint_01
+      position: {x: -0.41722667, y: -0.0012004318, z: 0.008872594}
+      rotation: {x: 0.24355844, y: 0.058014534, z: -0.31296873, w: -0.9161682}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000005}
+    - name: Left_Toe_Joint_01
+      parentName: Left_Ankle_Joint_01
+      position: {x: -0.166, y: -0.036, z: -0.019}
+      rotation: {x: -0.22729123, y: -0.66958106, z: -0.22729136, w: 0.669581}
+      scale: {x: 1.0000002, y: 1, z: 1.0000005}
+    - name: Right_Thigh_Joint_01
+      parentName: Hip
+      position: {x: -0.1221335, y: 0.011331954, z: 0.11463108}
+      rotation: {x: -0.10821251, y: -0.019326182, z: -0.99223816, w: 0.058138926}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Right_Knee_Joint_01
+      parentName: Right_Thigh_Joint_01
+      position: {x: 0.36603737, y: -0.0008285073, z: 0.02128558}
+      rotation: {x: 0.00000013969837, y: -0.00000003550667, z: -0.018812407, w: 0.99982303}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Right_Ankle_Joint_01
+      parentName: Right_Knee_Joint_01
+      position: {x: 0.4219327, y: -0.0016250975, z: 0.009660294}
+      rotation: {x: 0.91582686, y: -0.31236628, z: -0.06206041, w: 0.2446161}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: Right_Toe_Joint_01
+      parentName: Right_Ankle_Joint_01
+      position: {x: 0.172, y: 0.044, z: 0.023}
+      rotation: {x: 0.00000002980232, y: 0.00000001490116, z: -0.32143936, w: 0.9469302}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Ribs
+      parentName: Root
+      position: {x: -0.08024527, y: 0.00062167255, z: -9.82317e-18}
+      rotation: {x: -0, y: -0, z: -0.009375439, w: 0.9999561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Ribs
+      position: {x: -0.21694314, y: -0.014182907, z: -0.000000010019986}
+      rotation: {x: -0.47785205, y: 0.52120763, z: 0.47785205, w: 0.52120763}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Left_Shoulder_Joint_01
+      parentName: Chest
+      position: {x: -0.13130727, y: 0.15226704, z: -0.0074548856}
+      rotation: {x: 0.030674156, y: -0.12220341, z: -0.25213912, w: 0.95945364}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Left_Upper_Arm_Joint_01
+      parentName: Left_Shoulder_Joint_01
+      position: {x: -0.042553663, y: -0.038209286, z: -1.5791014e-16}
+      rotation: {x: 0.049505625, y: 0.1362401, z: 0.22451906, w: 0.96362805}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Left_Forearm_Joint_01
+      parentName: Left_Upper_Arm_Joint_01
+      position: {x: -0.26275605, y: -0.024909347, z: 0.008630505}
+      rotation: {x: 0.03230221, y: -0.06143144, z: -0.4281682, w: 0.9010298}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Left_Wrist_Joint_01
+      parentName: Left_Forearm_Joint_01
+      position: {x: -0.17124572, y: -0.2668258, z: 0.04376322}
+      rotation: {x: -0.00044155488, y: 0.035753783, z: 0.37579283, w: 0.92601365}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: left_suit
+      parentName: Left_Upper_Arm_Joint_01
+      position: {x: -0.305549, y: -0.20593706, z: 0.0019632443}
+      rotation: {x: -0.08188457, y: -0.026082527, z: -0.18737848, w: 0.97852135}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.000000010019986, y: 0.17901404, z: -0.0013300118}
+      rotation: {x: 0.5511756, y: -0.44295093, z: -0.55117553, w: 0.44295096}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.079593115, y: 0, z: -2.0962138e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Shoulder_Joint_01
+      parentName: Chest
+      position: {x: 0.13130699, y: 0.15227154, z: -0.0074548535}
+      rotation: {x: 0.9594538, y: 0.25213772, z: -0.122204676, w: -0.030674696}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Right_Upper_Arm_Joint_01
+      parentName: Right_Shoulder_Joint_01
+      position: {x: 0.042553958, y: 0.038209286, z: -0.000000039259945}
+      rotation: {x: -0.08620448, y: 0.09373745, z: 0.1435097, w: 0.981421}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: Right_Forearm_Joint_01
+      parentName: Right_Upper_Arm_Joint_01
+      position: {x: 0.25055707, y: 0.07796168, z: -0.0050728386}
+      rotation: {x: -0.7908372, y: -0.06017734, z: -0.13892002, w: -0.59300625}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: Right_Wrist_Joint_01
+      parentName: Right_Forearm_Joint_01
+      position: {x: 0.31772947, y: -0.03468542, z: 0.001845567}
+      rotation: {x: 0.68261606, y: -0.048764728, z: 0.13642149, w: -0.7162727}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: right_suit
+      parentName: Right_Upper_Arm_Joint_01
+      position: {x: 0.26011458, y: 0.26533315, z: 0.05403032}
+      rotation: {x: -0.9965599, y: 0.06772121, z: -0.0040481216, w: 0.047601696}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Wingsuit
+      parentName: WingsuitAviator(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

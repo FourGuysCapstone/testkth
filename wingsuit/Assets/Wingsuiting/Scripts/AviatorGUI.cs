@@ -174,7 +174,6 @@ public class AviatorGUI : MonoBehaviour
             if (isMobilePlatform)
             {
                 MouseOrbit.FindObjectOfType<MouseOrbit>().enabled = true;
-                MouseOrbit.FindObjectOfType<MouseOrbit>().distance = 7.5f;
             }
         }
     }
