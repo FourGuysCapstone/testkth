@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     bool jDown;
 
     bool isJump;
+    public static bool isStop;
     Vector3 moveVec;
 
     Rigidbody rigid;
@@ -26,7 +27,9 @@ public class Player : MonoBehaviour
     void Update()
     {
         GetInput();
+       
         Move();
+        // 이동 로직 등을 처리하는 다른 함수 호출
         Turn();
         Jump();
     }
@@ -48,14 +51,23 @@ public class Player : MonoBehaviour
         cameraForward.Normalize();
 
         // 이동 벡터 설정
-        moveVec = new Vector3(hAxis, 0, vAxis).normalized;
+        
 
         // 카메라 방향으로 이동
-        transform.position += (cameraForward * moveVec.z + Camera.main.transform.right * moveVec.x) * speed * (wDown ? 0.3f : 0.5f) * Time.deltaTime;
+        if (isStop)
+        {
+            Debug.Log("isStop 된상황");
+        }
+        else
+        {
+            moveVec = new Vector3(hAxis, 0, vAxis).normalized;
+            transform.position += (cameraForward * moveVec.z + Camera.main.transform.right * moveVec.x) * speed * (wDown ? 0.3f : 0.5f) * Time.deltaTime;
 
-        // 애니메이션 설정
-        anim.SetBool("isRun", moveVec != Vector3.zero);
-        anim.SetBool("isWalk", wDown);
+            // 애니메이션 설정
+            anim.SetBool("isRun", moveVec != Vector3.zero);
+            anim.SetBool("isWalk", wDown);
+        }
+        
     }
 
     void Turn()

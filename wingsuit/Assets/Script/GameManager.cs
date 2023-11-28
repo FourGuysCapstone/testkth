@@ -24,8 +24,8 @@ public class GameManager : MonoBehaviour
 
     private static GameManager m_instance; // 싱글톤이 할당될 static 변수
     public InputField inputField; //오프닝씬에 이름을 적을 수 있는 인풋필드
-    public static String playerName = ""; //게임내 데이터에 적어놓을 플레이어이름변수
-    // 플레이어와 상호작용할 오브젝트
+    public String playerName = ""; //게임내 데이터에 적어놓을 플레이어이름변수
+    public bool isGameover = false;
     private void Awake()
     {
         // 씬에 싱글톤 오브젝트가 된 다른 GameManager 오브젝트가 있다면
@@ -37,13 +37,17 @@ public class GameManager : MonoBehaviour
             //타입의 오브젝트가 존재하지 못하도록 막는다.
         }
     }
+    
 
     public void BaseJumpStartButton() // 오프닝씬에 붙어있는 버튼
     {
         //시작하는사람의 이름
         playerName = inputField.text;
+        
+
         //엔딩씬에서 돌아와서 다시 게임을 하겠다는 사람을 위해 스코어 초기화
         SceneManager.LoadScene("BaseJumpScene");
+        Player.isStop = true;
     }
 
     public void JetPackStartButton()
@@ -51,6 +55,7 @@ public class GameManager : MonoBehaviour
         playerName = inputField.text;
         SceneManager.LoadScene("JetPackScene");
     }
+    
     public void ExitButton()
     {
 #if UNITY_EDITOR
@@ -61,7 +66,20 @@ public class GameManager : MonoBehaviour
         Application.Quit();
 #endif
     }
-    
+    private void Update()
+    {
+        if (isGameover)
+        {
+            if (Input.GetKey(KeyCode.R))
+            {
+                string currentSceneName = SceneManager.GetActiveScene().name;
+                Debug.Log("a");
+                SceneManager.LoadScene(currentSceneName);
+                isGameover = false;
+            }
+        }
+    }
+
 
 
 

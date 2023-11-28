@@ -59,6 +59,7 @@ public class HitChecker : MonoBehaviour
             }
             Destroy(controller);
             Destroy(posController);
+            UIManager.instance.Reload();
         }
     }
     IEnumerator WaitAndReload()
