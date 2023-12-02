@@ -24,8 +24,13 @@ public class GameManager : MonoBehaviour
 
     private static GameManager m_instance; // 싱글톤이 할당될 static 변수
     public InputField inputField; //오프닝씬에 이름을 적을 수 있는 인풋필드
-    public String playerName = ""; //게임내 데이터에 적어놓을 플레이어이름변수
+    public static String playerName = ""; //게임내 데이터에 적어놓을 플레이어이름변수
+    public static int playerNumber = 0;
     public bool isGameover = false;
+    public bool isBaseStart = false;
+    public bool isParachuteOpen = false;
+    public bool isParachuteTrigger = false;
+    public bool isBaseOver = false;
     private void Awake()
     {
         // 씬에 싱글톤 오브젝트가 된 다른 GameManager 오브젝트가 있다면
@@ -43,8 +48,11 @@ public class GameManager : MonoBehaviour
     {
         //시작하는사람의 이름
         playerName = inputField.text;
-        
-
+        if (String.IsNullOrEmpty(playerName))
+        {
+            playerName = "User_"+ UnityEngine.Random.Range(1,999);
+        }
+        //PlayerPrefs.SetString(playerNumber++.ToString(), playerName);
         //엔딩씬에서 돌아와서 다시 게임을 하겠다는 사람을 위해 스코어 초기화
         SceneManager.LoadScene("BaseJumpScene");
         Player.isStop = true;
@@ -53,6 +61,13 @@ public class GameManager : MonoBehaviour
     public void JetPackStartButton()
     {
         playerName = inputField.text;
+        if (String.IsNullOrEmpty(playerName))
+        {
+            playerName = "User_" + UnityEngine.Random.Range(1, 999);
+
+        }
+        //PlayerPrefs.SetString(playerNumber++.ToString(), playerName);
+
         SceneManager.LoadScene("JetPackScene");
     }
     
@@ -68,16 +83,20 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        if (isGameover)
+        if (isBaseStart)
         {
-            if (Input.GetKey(KeyCode.R))
+            if (isGameover)
             {
-                string currentSceneName = SceneManager.GetActiveScene().name;
-                Debug.Log("a");
-                SceneManager.LoadScene(currentSceneName);
-                isGameover = false;
+                if (Input.GetKey(KeyCode.R))
+                {
+                    string currentSceneName = SceneManager.GetActiveScene().name;
+                    Debug.Log("a");
+                    SceneManager.LoadScene(currentSceneName);
+                    isGameover = false;
+                }
             }
         }
+
     }
 
 

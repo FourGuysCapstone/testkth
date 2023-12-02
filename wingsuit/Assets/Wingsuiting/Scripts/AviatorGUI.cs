@@ -122,61 +122,7 @@ public class AviatorGUI : MonoBehaviour
     }
    
 
-    void OnGUI()
-    {
-        GUILayout.Label("\n Email: vagho.srapyan@gmail.com ");
-        if (controller)
-        {
-            if (!isMobilePlatform)
-            {
-                GUILayout.Label("\n  Space Down - stop camera control ,\n  MouseOrbit - run camera control,\n  Mouse ScrollWheel - camera zoom.  ");
-            } 
-            GUILayout.Label("     Horizontal velocity m/s: " + Vector3.ProjectOnPlane(controller.velocity, Vector3.up).magnitude.ToString("0") + 
-                "\n     Vertical velocity m/s: " + Vector3.Project(controller.velocity, Vector3.up).magnitude.ToString("0"));
-
-            RaycastHit hit;
-            Ray ray = new Ray(controller.transform.position, Vector3.down);
-            if (Physics.Raycast(ray, out hit, 100000.0f, mask))
-            {
-                GUILayout.Label("     Ground height m: " + Vector3.Distance(controller.transform.position, hit.point).ToString("0") + 
-                    "\n     Height m: " + Mathf.Clamp(controller.transform.position.y, 0.0f, 100000.0f).ToString("0"));
-            }
-        }
-        float height = isMobilePlatform ? 50.0f : 20.0f;
-        if (GUILayout.Button("Reload", GUILayout.Height(height)))
-        {
-            Application.LoadLevel(Application.loadedLevel);
-        }
-        if (!controller)
-        {
-            return;
-        }
-        GUILayout.Label("");
-       
-        int nextSuitNumber = suitNumber + 1 < suits.Length ? suitNumber + 1 : 0;
-        if (GUILayout.Button("Suit: " + suits[nextSuitNumber].name, GUILayout.Height(height)))
-        {
-            suitMat.mainTexture = suits[nextSuitNumber];
-            helmetMat.mainTexture = suits[nextSuitNumber];
-            suitNumber = nextSuitNumber;
-        }
-       
-        if (controller.parachuteIsOpened)
-        {
-            return;
-        }
-            
-        if (GUILayout.Button("Open parachute", GUILayout.Height(height)))
-        {
-            Destroy(poses.gameObject);
-            controller.parachuteIsOpened = true;
-            posControlle.SetPose("Open parachute", 1.0f);
-            if (isMobilePlatform)
-            {
-                MouseOrbit.FindObjectOfType<MouseOrbit>().enabled = true;
-            }
-        }
-    }
+    
     void Update()
     {
         if (controller.parachuteIsOpened)

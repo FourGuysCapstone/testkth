@@ -14,9 +14,10 @@ public class OffScreenIndicator : MonoBehaviour
     [Tooltip("Distance offset of the indicators from the centre of the screen")]
     [SerializeField] private float screenBoundOffset = 0.9f;
 
-    private Camera mainCamera;
+    public Camera mainCamera;
     private Vector3 screenCentre;
     private Vector3 screenBounds;
+    
 
     private List<Target> targets = new List<Target>();
 
@@ -28,8 +29,26 @@ public class OffScreenIndicator : MonoBehaviour
         screenCentre = new Vector3(Screen.width, Screen.height, 0) / 2;
         screenBounds = screenCentre * screenBoundOffset;
         TargetStateChanged += HandleTargetStateChanged;
+
+        // CameraChanged 이벤트에 OnCameraChanged 함수 등록
+        CameraEventManager.CameraChanged += OnCameraChanged;
+
+        // 초기에 한 번 호출
+        OnCameraChanged(Camera.main);
     }
 
+    public void OnCameraChanged(Camera newCamera)
+    {
+        Debug.Log("Camera changed: " + newCamera.name);
+        mainCamera = newCamera;
+
+        // Canvas 컴포넌트 가져와서 렌더 카메라 설정
+        Canvas canvas = GetComponent<Canvas>();
+        if (canvas != null)
+        {
+            canvas.worldCamera = mainCamera;
+        }
+    }
     void LateUpdate()
     {
         DrawIndicators();

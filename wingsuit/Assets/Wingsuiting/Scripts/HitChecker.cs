@@ -43,10 +43,10 @@ public class HitChecker : MonoBehaviour
                 rootBody.gameObject.AddComponent<FixedJoint>();
                 leftHand.gameObject.AddComponent<FixedJoint>();
                 rightHand.gameObject.AddComponent<FixedJoint>();
-                StartCoroutine(WaitAndReload());
             }
             Destroy(body);
             Destroy(GetComponent<Collider>());
+            Destroy(GetComponent<AudioSource>());
             body.useGravity = true;
             bodies = GetComponentsInChildren<Rigidbody>();
             foreach (var item in bodies)
@@ -59,12 +59,12 @@ public class HitChecker : MonoBehaviour
             }
             Destroy(controller);
             Destroy(posController);
-            UIManager.instance.Reload();
+            if (!GameManager.instance.isBaseOver)
+            {
+                UIManager.instance.Reload();
+            }
+            
         }
     }
-    IEnumerator WaitAndReload()
-    {
-        yield return new WaitForSeconds(1.0f);
-        Application.LoadLevel(Application.loadedLevel);
-    }
+    
 }
